@@ -19,7 +19,6 @@ function clearDisplay() {
   }
   
   function evalExpression(expression) {
-    // Using regular expression to split the expression and handle spaces
     const tokens = expression.match(/\d+|\+|\-|\*|\//g) || [];
     const numbers = [];
     const operators = [];
